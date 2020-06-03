@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SPA Template Module Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Single Page Application">
+  <meta name="author" content="Victoria and Jesson">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300&display=swap" rel="stylesheet">  
+
+  
+  <!-- main styles  -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body class="app">
+  <!-- tabbar navigation -->
+  <nav id="tabbar" class="tabbar hide">
+    <a href="#login"><img src="/images/home.png"><br>Home</a>
+    <a href="#shop"><img src="/images/shop.png"><br>Shop</a>
+    <a href="#profile"><img src="/images/user.png"><br>Profile</a>
+  </nav>
+  <section id="content"></section>
+
+  <!-- Loding firebase libraries: firebase, auth, firestore & firebase ui -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+
+  <!-- firebase config -->
+  <script src="firebase-config.js"></script>
+  
+  <!-- main js file -->
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
